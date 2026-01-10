@@ -20,6 +20,8 @@ public class Usuario {
     @Enumerated(EnumType.STRING)
     private TipoUsuario tipoUsuario;
 
+    protected Usuario() {}
+
     public Long getId() {
         return id;
     }
